@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.top-header {
+
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-header {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid color;
+}
+
+
+.top-header h1 {
+
+}
+
+.top-header a {
+
+}
+
