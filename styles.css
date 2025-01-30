@@ -2,23 +2,26 @@ body {
     margin: 0;
 }
 
+.header, .gallery, .gallery, .bottom, .footer {
+    padding: 0 20%;
+}
+
 .container {
     display: flex;
     flex-direction: column;
 }
 
 .header {
-
-    height: 72px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: #1F2937;
+    border: 2px solid black;
+    color: white;
 }
 
 .top-header {
 
-    height: 72px;
     display: flex;
     justify-content: space-between;
 }
@@ -27,15 +30,13 @@ body {
     height: 72px;
     display: flex;
     justify-content: space-between;
-    border: 2px solid color;
+}
+.right-links {
+    align-content: center;
 }
 
-
-.top-header h1 {
-
-}
-
-.top-header a {
-
+.right-links a {
+    text-decoration: none;
+    color: white;
 }
 
