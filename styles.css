@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header, .gallery, .gallery, .bottom, .footer {
@@ -10,15 +11,16 @@ body {
     display: flex;
     flex-direction: column;
 }
+/* HEADER Section*/
 
 .header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     background-color: #1F2937;
-    border: 2px solid black;
     color: white;
 }
+
 
 .top-header {
 
@@ -26,17 +28,62 @@ body {
     justify-content: space-between;
 }
 
-.bottom-header {
-    height: 72px;
-    display: flex;
-    justify-content: space-between;
-}
-.right-links {
+.right-links, .top-header h3{
     align-content: center;
 }
 
 .right-links a {
     text-decoration: none;
     color: white;
+    padding: 5px;
 }
+
+
+.bottom-header {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-header .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.left-side h3{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+
+}
+
+
+.left-side button {
+    align-items: center;
+    width: max-content;
+}
+
+.bottom-header .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 400px;
+    height: 200px;
+    align-content: center;
+    padding: 20px 0;
+}
+
+/* Gallery Section */
+
+
+ 
+
+
+
 
