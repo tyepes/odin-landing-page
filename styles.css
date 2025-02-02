@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header, .gallery, .gallery, .bottom, .footer {
+.header, .gallery, .quote-section, .bottom, .footer {
     padding: 0 20%;
 }
 
@@ -121,6 +121,32 @@ body {
 .subtext {
     font-size: 18px;
     align-content: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: #E5E7EB;
+
+    padding: 5% 20%;
+    
+}
+
+.quote {
+
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+
+}
+
+.source {
+    justify-content: center;
+    align-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
 }
  
 
