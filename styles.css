@@ -1,10 +1,22 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
 }
 
 .header, .gallery, .quote-section, .bottom, .footer {
     padding: 0 20%;
+}
+
+button {
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    
 }
 
 .container {
@@ -86,6 +98,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: white;
 }
 .gallery-title {
     align-content: center;
@@ -105,10 +118,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 200px;
-    height: 250px;
+    height: 300px;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 40px;
+    flex: 1;
     
 }
 
@@ -117,11 +131,13 @@ body {
     width: 100%;
     height: 100%;
     padding: 10 20px;
+    border-radius: 10%;
 }
 .subtext {
     font-size: 18px;
     align-content: center;
 }
+/* Quote Section */
 
 .quote-section {
     display: flex;
@@ -148,8 +164,63 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
- 
+/* Bottom Section */
 
+.bottom {
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+    padding: 5% 20%;
+}
+
+.bottom .blue-container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5% 20%;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.blue-container .left-side {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-content: space-around;
+}
+
+.blue-container .left-side h5 {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.blue-container .left-side p {
+    font-size: 18px;
+    padding: 0;
+}
+
+.blue-container .right-side {
+    align-items: center;
+    align-content: center;
+}
+.blue-container .right-side button {
+    border: 2px solid white;
+    font-size: 18px;
+} 
+
+ /* Footer section */
+
+ .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 0;
+ }
 
 
 
